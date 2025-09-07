@@ -1,0 +1,20 @@
+{
+    
+    "products": [
+      {
+        "id": 1,
+        "title": "Consectetur hampden omnis perspiciatis",
+        "quantity": 988,
+        "rating": 5,
+        "reference": "product1",
+        "returnPolicy": "No return policy",
+        "price": [
+            {
+                "marketvalue": 105.56,
+                "tax": 20
+            }
+        ],
+      }
+
+    ]
+}
