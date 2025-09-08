@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,6 +15,8 @@ import axios from 'axios';
 
 const Homepage = () => {
   const [products,setProducts] = useState([])
+
+  
 
   axios.get('https://dummyjson.com/products')
   .then(res => setProducts(res.data.products))
